@@ -1,0 +1,161 @@
+
+body {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.status_message {
+	font-size: 11px;
+	font-weight: bold;
+	padding: 8px 12px;
+	margin: 0 0 5px 0;
+}
+.status_message.error {
+	/*background: url(../images/common/status_message/error.png) no-repeat center center transparent;*/
+	background-color: #FFF9D7;
+	color: #FF0000;
+	border: 1px solid #E2C822;
+}
+.status_message.warning {
+	/*background: url(../images/common/status_message/warning.png) no-repeat center center transparent;*/
+	background-color: #eef8db;
+	color: #003366;
+	border: 1px solid #a0ae86;
+}
+.status_message.success {
+	/*background: url(../images/common/status_message/success.png) no-repeat center center transparent;*/
+	background-color: #E2F9E3;
+	color: #000000;
+	border: 1px solid #99CC99;
+}
+.status_message.notification {
+	/*background: url(../images/common/status_message/notification.png) no-repeat center center transparent;*/
+	background-color: #eef8db;
+	color: #003366;
+	border: 1px solid #a0ae86;
+}
+.status_message.information {
+	/*background: url(../images/common/status_message/information.png) no-repeat center center transparent;*/
+	background-color: #E2F9E3;
+	color: #000000;
+	border: 1px solid #99CC99;
+}
+.row_container {
+	height: auto;
+	/*background-color: #fffceb;*/
+	padding-left: 10px;
+	padding-bottom: 10px;
+	/*border: 1px solid #f5d000;*/
+	float: middle;
+	width: 55%;
+	/*font-family: Arial, sans-serif;*/
+}
+.row_left {
+	font-weight: bold;
+	font-size: 14px;
+	width: 50%;
+	height: auto;
+	padding: 10px 10px 10px 5px;
+	float: left;
+}
+.row_right {
+	font-weight: bold;
+	font-size: 14px;
+	width: 40%;
+	height: auto;
+	padding: 5px 10px 10px 5px;
+	float: left;
+}
+.row {
+	float: left;
+	width: 100%;
+	height: auto;
+	padding: 0px;
+	margin: 0px 0px 0px 0px;
+	font-size: 16px;
+}
+
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#aaa;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aaa;color:#333;background-color:#fff;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aaa;color:#fff;background-color:#f38630;}
+.tg .tg-j2zy{background-color:#FCFBE3;vertical-align:top}
+.tg .tg-baqh{font-weight:bold}
+.tg .tg-zczf{background-color:#FCFBE3;text-align:right;vertical-align:top}
+.tg .tg-lqy6{text-align:right;vertical-align:top}
+.tg .tg-yw4l{vertical-align:top}
+
+.error {
+	display: none;
+	margin-left: 10px;
+}
+.error_show {
+	color: red;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.checkbox-div{
+padding: 4px;
+display: block;
+
+}
+
+textarea {
+    font-family: "Arial", Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+input[disabled], input[disabled]:hover 
+{ 
+  color:#444; font-weight:bold;
+}
+
+.disabledInput {
+    color: black;
+}
+
+ /* Tooltip container */
+.tooltip {
+   /* position: relative;*/
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+
+    /* Fade in tooltip */
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+/* Tooltip arrow */
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+} 
